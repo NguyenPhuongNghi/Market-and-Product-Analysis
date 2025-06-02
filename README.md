@@ -19,42 +19,48 @@ Use Power BI to analyze the business performances of different markets and produ
 :two: **Market:**
 #### 📌 Sales:
 - The sales trend increased steadily from 2010 to 2014. Sales seasonality is strong—likely around Q3 and Q4, suggesting marketing efforts align with seasonal demand.
-- APAC, EU, and US are the dominant contributors to total sales in most years.
-- Return rates are a concern in EU and US, which may imply customer dissatisfaction or fulfillment issues.
+- APAC (especially which region) , EU (especially which region), and US (especially which region) are the dominant contributors to total sales in most years.
 #### 📌 Profit Margin:
 - The profit margin varies significantly by market and over time, suggesting differences in cost structure, pricing, or customer behavior.
 - Some regions (Canada, EU, APAC) have strong profit margins, while others are less consistent over time.
 #### 📌 Return Rate:
-- Return rates are a concern in EU and US, which may imply customer dissatisfaction or fulfillment issues.
+- Return rates are a concern in EU (especially which region) and US (especially which region, which may imply customer dissatisfaction or fulfillment issues.
 
 - **Average profit margin: 11.6%**
-- High sales and high profit margin:
+
+:fire: High sales and high profit margin:
 
 | Market         | Sales Share (%) | Profit Margin (%)      |
 |-------------|:------:|:------------------:|
 | APAC   | 28.3%   | 12.2%   |
 | EU   | 23.2%   | 12.7% |
 | US    | 18.1%   | 12.5%|
-- High sales but lower profit margin:
+- Chỉ ra những sản phẩm có high profitability và low profitability
+
+:exclamation: High sales but lower profit margin:
 
 | Market         | Sales Share (%) | Profit Margin (%)      |
 |-------------|:------:|:------------------:|
 | LATAM   | 17.12%   | 10.2%   |
+- Chỉ ra những sản phẩm có high profitability và low profitability
 
-- Low sales but high profit margin:
+:star: Low sales but high profit margin:
 
 | Market         | Sales Share (%) | Profit Margin (%)      |
 |-------------|:------:|:------------------:|
 | Canada   | 0.53%   | 26.6%   |
+- Chỉ ra những sản phẩm có high profitability và low profitability
 
-- Low sales and low profit margin
+:warning: Low sales and low profit margin
 
 | Market         | Sales Share (%) | Profit Margin (%)      |
 |-------------|:------:|:------------------:|
 | EMEA   | 6.4%   | 5.4%   |
 | Africa   | 6.2%   | 11.3% |
+- Chỉ ra những sản phẩm có high profitability và low profitability
 
-
+:two: **Product:**
+- According to Scatter Plot, sub-category "tables" yielded considerably high revenue but had negative profit margin (8.5%) --> consider restructuring costs or phasing out 
 
 ### Solutions:
 #### 📊 Market Strategy Matrix: Sales vs. Profit Margin
