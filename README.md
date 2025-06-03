@@ -4,13 +4,13 @@ Use Power BI to analyze the business performances of different markets and produ
 :one: **Overview:** <br>
 
 📍 **By time:**
-- Sales: Consistent growth from 2011 to 2014 with seasonal fluctuations. Peaks appear seasonally (possibly Q4), indicating cyclical profit patterns.
-- Profit Margin: Fluctuates but remain between 10%–13% over the 4-year period. Profit margin is not as stable as sales, indicating potential cost management or pricing strategy issues.
+- Sales: Consistent growth from 2011 to 2014 with seasonal fluctuations. Peaks appeared seasonally (possibly Q4), indicating cyclical profit patterns.
+- Profit Margin: Fluctuated but remained between 10%–13% over the 4-year period. Profit margin is not as stable as sales, indicating potential cost management or pricing strategy issues.
 
 📍 **By market:**
 - Top 3 markets by sales: APAC (3.6M), EU (2.9M), US (2.3M).
 - Lowest sales: Canada (0.1M), Africa (0.8M).
-- Profit Margin is highest in Canada (~30%), even with low sales volume → indicates niche profitability and suggest investing more if scalable. It varies around 10%-13% in other markets (APAC, EU, US, LATAM) and is the lowest in EMEA (5.4%)
+- Profit Margin: was the highest in Canada (~30%), even with low sales volume → indicates niche profitability and suggests investing more if scalable. It varied around 10%-13% in other markets (APAC, EU, US, LATAM) and was the lowest in EMEA (5.4%)
 
 
 📍 **By Category:**
@@ -24,67 +24,85 @@ Use Power BI to analyze the business performances of different markets and produ
   
 :two: **Product:**
 #### 📌 Sales:
-- The sales trend increased steadily from 2010 to 2014. Sales seasonality is strong—likely around Q3 and Q4, suggesting marketing efforts align with seasonal demand.
-- APAC (especially which region), EU (especially which region), and US (especially which region) are the dominant contributors to total sales in most years.
+- All categories showed steady growth.
+- Technology pulled ahead clearly since 2013, followed by Office Supplies and Furniture.
+- Peaks appeared seasonally in Q4.
+
 #### 📌 Profit Margin:
-- The profit margin varies significantly by market and over time, suggesting differences in cost structure, pricing, or customer behavior.
-- Some regions (Canada, EU, APAC) have strong profit margins, while others are less consistent over time.
+- Technology and Office Supplies took turns to lead margin, varying between 10%-15%
+- Furniture showed volatile and lower margin historically, fluctuating between 3%-10%
+
 #### 📌 Return Rate:
-- Return rates are a concern in EU (especially which region) and US (especially which region), which may imply customer dissatisfaction or fulfillment issues.
+- Furniture and Technology had considerably high return rates, at 5.9% and 5.8% respectively, which may imply customer dissatisfaction or fulfillment issues.
 
-✅ High sales and high profit margin:
+#### 📌  Sub-Category Performance:
+- **Average profit margin: 11.6%**
+✅ High sales and high profit margin (Top-performing):
 
-| Market         | Sales Share (%) | Profit Margin (%)      |
+| Sub-Category         | Sales | Profit Margin (%)      |
 |-------------|:------:|:------------------:|
-| APAC   | 28.3%   | 12.2%   |
-| EU   | 23.2%   | 12.7% |
-| US    | 18.1%   | 12.5%|
-- Chỉ ra những sản phẩm có high profitability và low profitability
+| Phones   | 1.70M | 12.7%   |
+| Copiers   | 1.50M | 17.1% |
+| Appliances    | 1.00M   | 14.0%|
+| Accessories  | 0.75M   | 17.3%|
 
-⚠️ High sales but lower profit margin:
+⚠️ High sales but low profit margin:
 
-| Market         | Sales Share (%) | Profit Margin (%)      |
+|   Sub-Category        | Sales  | Profit Margin (%)      |
 |-------------|:------:|:------------------:|
-| LATAM   | 17.12%   | 10.2%   |
-- Chỉ ra những sản phẩm có high profitability và low profitability
+| Chairs   | 1.50M  | 9.4%   |
+| Bookcases   | 1.47M   | 11.0%  |
+| Storage   | 1.12M   | 9.6% |
+| Machines   | 0.78M   | 7.6%   |
+| Tables   | 0.76M   | -8.5% -> alarming   |
 
 🧐 Low sales but high profit margin:
 
-| Market         | Sales Share (%) | Profit Margin (%)      |
+| Market         | Sales  | Profit Margin (%)      |
 |-------------|:------:|:------------------:|
-| Canada   | 0.53%   | 26.6%   |
-- Chỉ ra những sản phẩm có high profitability và low profitability
+| Binders   | 0.53%   | 26.6%   |
+| Furnishings   | 0.53%   | 26.6%   |
+| Art   | 0.53%   | 26.6%   |
+| Paper   | 0.53%   | 26.6%   |
+| Envelopers   | 0.53%   | 26.6%   |
+| Fasteners   | 0.53%   | 26.6%   |
+| Labels   | 0.53%   | 26.6%   |
 
 🚨 Low sales and low profit margin
 
-| Market         | Sales Share (%) | Profit Margin (%)      |
+| Market         | Sales  | Profit Margin (%)      |
 |-------------|:------:|:------------------:|
-| EMEA   | 6.4%   | 5.4%   |
-| Africa   | 6.2%   | 11.3% |
+| Supplies   | 6.4%   | 5.4%   |
 
 
 
 
-:two: **Market:**
+➡️**Overall:**
+- Technology is both the revenue and profit leader but may face more returns.
+- Most sub-categories had positive profit margins, except Table (-8.5%) --> analyze the performance of this category in different markets to identify areas of inefficiency
+- Top-performing sub-category (high sales & high profit): Phones (1.7M sales, 12.7% margin) and Copiers (1.5M sales, 17.1% margin)
+- Most profitable sub-category: Paper (24.2% margin), Labels (20.4% margin)
+- Worst margin: Machines (7.6%) and Tables (-8.5%)
+
+
+3️⃣ **Market:**
 #### 📌 Sales:
-- The sales trend increased steadily from 2010 to 2014. Sales seasonality is strong—likely around Q3 and Q4, suggesting marketing efforts align with seasonal demand.
+- The sales trend increased steadily from 2010 to 2014. Sales seasonality is strong-likely around Q3 and Q4, suggesting marketing efforts align with seasonal demand.
 - APAC (especially which region), EU (especially which region), and US (especially which region) are the dominant contributors to total sales in most years.
 #### 📌 Profit Margin:
 - The profit margin varies significantly by market and over time, suggesting differences in cost structure, pricing, or customer behavior.
 - Some regions (Canada, EU, APAC) have strong profit margins, while others are less consistent over time.
 #### 📌 Return Rate:
 - Return rates are a concern in EU (especially which region) and US (especially which region), which may imply customer dissatisfaction or fulfillment issues.
-
+#### 📌 Market Performance:
 - **Average profit margin: 11.6%**
-
 ✅ High sales and high profit margin:
 
-| Market         | Sales Share (%) | Profit Margin (%)      |
+| Sub-category         | Sales Share (%) | Profit Margin (%)      |
 |-------------|:------:|:------------------:|
 | APAC   | 28.3%   | 12.2%   |
 | EU   | 23.2%   | 12.7% |
 | US    | 18.1%   | 12.5%|
-- Chỉ ra những sản phẩm có high profitability và low profitability
 
 ⚠️ High sales but lower profit margin:
 
