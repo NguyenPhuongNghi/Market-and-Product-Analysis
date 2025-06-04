@@ -185,10 +185,29 @@ Use Power BI to analyze the business performances of different markets and produ
 
 ### Solutions:
 #### 📊 Market Strategy Matrix: Sales vs. Profit Margin
-| **Sales ↓ / Margin →** | **High Profit Margin**                                       | **Low Profit Margin**                                       |
-|------------------------|--------------------------------------------------------------|--------------------------------------------------------------|
-| **High Sales**         | ✅ **Maintain & Scale**  <br> - | ⚠️ **Optimize Margins**  |
-| **Low Sales**          | 🧐 **Explore Growth**  | 🚨 **Fix or Exit**   |
+<table>
+  <tr>
+    <th valign="top">Sales ↓ / Margin →</th>
+    <th valign="top">High Profit Margin</th>
+    <th valign="top">Low Profit Margin</th>
+  </tr>
+  <tr>
+    <td valign="top">High Sales</td>
+    <td valign="top">🔻 APAC 
+      <br>- Central Asia
+      <br>- North Asia
+      <br>🔻 EU 
+      <br>🔻 US</td>
+    <td valign="top">🔻 LATAM</td>
+  </tr>
+  <tr>
+    <td valign="top">Low Sales</td>
+    <td valign="top">🔻 Canada</td>
+    <td valign="top">🔻 EMEA
+      <br>🔻 Africa</td>
+  </tr>
+</table>
+
 
 
 | **Sales ↓ / Margin →** | **High Profit Margin**                                       | **Low Profit Margin**                                       |
@@ -197,8 +216,7 @@ Use Power BI to analyze the business performances of different markets and produ
 | **Low Sales**          | 🧐 **Explore Growth**  <br>• Targeted marketing  <br>• Test product expansion  <br>• Evaluate scalability  <br>• Leverage high-margin strengths | 🚨 **Fix or Exit**  <br>• Analyze root causes  <br>• Cut costs  <br>• Redesign offering  <br>• Set deadlines for improvement |
 
 
-
-
+<br>+ Chairs Bookcases Copiers Phones
 
 
 
