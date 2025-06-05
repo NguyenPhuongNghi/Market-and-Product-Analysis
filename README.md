@@ -21,11 +21,12 @@ Use Power BI to analyze the business performances of different markets and produ
 - **Key metrics:** Sales, Profit, Profit Margin, Return Rate
 ## :three: Tools used:
 - Power BI (Power Query, DAX measures, Visuals)
-## :four: DASHBOARD STRUCTURE:
-
-## :five: Report: [attached file]()
+## :four: Dashboard Structure:
+![alt](https://github.com/NguyenPhuongNghi/Market-and-Product-Analysis/blob/main/photo/Screenshot%202025-06-05%20175116.png?raw=true)
+## :five: Dashboard: [attached file](https://github.com/NguyenPhuongNghi/Market-and-Product-Analysis/blob/main/Global%20Superstore%20-%20Market%20Expansion%20and%20Product%20Strategy.pbix)
 
 :one: **Overview:** <br>
+![alt](https://github.com/NguyenPhuongNghi/Market-and-Product-Analysis/blob/main/photo/Screenshot%202025-06-05%20224928.png?raw=true)
 
 📍 **By time:**
 - Sales: Consistent growth from 2011 to 2014 with seasonal fluctuations. Peaks appeared seasonally (possibly Q4), indicating cyclical profit patterns.
@@ -46,7 +47,9 @@ Use Power BI to analyze the business performances of different markets and produ
 - Sales: Consumer segment dominates (6.5M), followed by Corporate (3.8M), and Home Office (2.3M). This indicates successful mass-market penetration.
 - Profit Margin: relatively equal in 3 segments, around 11%-12%
   
-:two: **Product:**
+:two: **Product:**<br>
+![alt](https://github.com/NguyenPhuongNghi/Market-and-Product-Analysis/blob/main/photo/Screenshot%202025-06-05%20225010.png?raw=true)
+
 #### 📌 Sales:
 - All categories showed steady growth.
 - Technology pulled ahead clearly since 2013, followed by Office Supplies and Furniture.
@@ -107,7 +110,9 @@ Use Power BI to analyze the business performances of different markets and produ
 - Worst profit margin: Machines (7.6%) and Tables (-8.5%)
 
 
-3️⃣ **Market:**
+3️⃣ **Market:**<br>
+![alt](https://github.com/NguyenPhuongNghi/Market-and-Product-Analysis/blob/main/photo/Screenshot%202025-06-05%20225108.png?raw=true)
+
 #### 📌 Sales:
 - The sales trend increased steadily from 2010 to 2014. Sales seasonality is strong-likely around Q3 and Q4, suggesting marketing efforts align with seasonal demand.
 - APAC (especially which region), EU (especially which region), and US (especially which region) are the dominant contributors to total sales in most years.
@@ -192,7 +197,9 @@ Use Power BI to analyze the business performances of different markets and produ
 - APAC and EU were the revenue leader, while Canada is the profit leader but with low sales
 - Most sub-categories had positive profit margins, except Table (-8.5%) --> analyze the performance of this category in different markets to identify areas of inefficiency
 
-4️⃣ **Customer**
+4️⃣ **Customer**<br>
+![alt](https://github.com/NguyenPhuongNghi/Market-and-Product-Analysis/blob/main/photo/Screenshot%202025-06-05%20225220.png?raw=true)
+
 #### 📌 Sales:
 - Sales from Consumer was the biggest (6.5M), followed by Corporate (3.8M) and Home Office (2.3M)
 - Sales of all segments have grown steadily across years with peak-season in Q4 and Consumer segment showed the strongest growth trend. 
@@ -210,8 +217,8 @@ Use Power BI to analyze the business performances of different markets and produ
 
 
 
-### Solutions:
-#### 📊 Market Strategy Matrix: Sales vs. Profit Margin
+## :five: Insight:
+#### :mag_right: Conlusion
 <table>
   <tr>
     <th valign="top">Sales ↓ / Margin →</th>
@@ -267,7 +274,7 @@ Use Power BI to analyze the business performances of different markets and produ
 </table>
 
 
-:bulb: **SOLUTION:**
+:bulb: **Market Strategy Matrix: Sales vs. Profit Margin**
 <table>
   <tr>
     <th valign="top">Sales ↓ / Margin →</th>
