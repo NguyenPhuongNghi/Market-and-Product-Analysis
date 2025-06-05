@@ -1,5 +1,29 @@
-# Market and Sales Analysis
+# Market and Product Analysis
 Use Power BI to analyze the business performances of different markets and products to expand markets and choose product strategies
+## :one: Project Overview:
+**:round_pushpin: The purposes of this project are:**
+- Analyse the business performances of each product categories/market/customer segment over 4-year-Period
+- Suggest market expansion strategies and decide strategic products 
+## :two: Dataset Description:
+- **Company:** Globalstore (fictional)
+- **Time period:** from 2011 to 2024
+- **Dataset:**
+<br>🔻Descriptive Data:
++ Market: Market, Region, Country, State, City
++ Product: Category, Sub-Category, Product Name
++ Customer: Customer Name, CustomerID
++ Delivery: Ship mode, Returned
++ Sales workforce: Person, Region
+<br>🔻Measures:
++ Sales
++ Quantity
++ Profit
+- **Key metrics:** Sales, Profit, Profit Margin, Return Rate
+## :three: Tools used:
+- Power BI (Power Query, DAX measures, Visuals)
+## :four: Analysis Framework:
+
+## :five: Report: [attached file]()
 
 :one: **Overview:** <br>
 
@@ -196,24 +220,26 @@ Use Power BI to analyze the business performances of different markets and produ
   </tr>
   <tr>
     <th valign="top">High Sales</th>
-    <td valign="top">🔻 APAC
+    <td valign="top">
+      <b>🔻APAC </b>
       <br>- Top-performing Category (true for all regions)
       <br>+ Chairs - Consumer
       <br>+ Copiers - Consumer
       <br>+ Bookcases - Consumer
       <br>+ Phones – Consumer 
-      <br>🔻 EU 
+      <br><b>🔻 EU </b>
       <br>- Top-performing Category:
       <br>+ Central: Phones - Consumer, Storage - Consumer, Copiers - Consumer
       <br>+ North: Phones - Consumer, Bookcases - Consumer, Copiers - Consumer 
       <br>+ South: Bookcases - Consumer, Copiers - Consumer, Appliances – Corporate
-      <br>🔻 US:
+      <br><b>🔻 US </b>
       <br>- Top-performing Category:
       <br>+ Central: Phones - Consumer, Copiers - Consumer, 
       <br>+ East: Phones - Consumer, Bookcases - Consumer, Copiers - Consumer
       <br>+ South: Phones - Consumer, Chairs - Consumer     
       <br>+ West: Storage - Consumer, Accessories - Consumer, Binders - Consumer
-    <th valign="top">🔻 LATAM
+    <td valign="top">
+      <b>🔻 LATAM </b>
       <br>- Top-performing Category:
       <br>+ Caribbean: Copiers - Consumer, Chair - Consumer, Phones - Consumer
       <br>+ Central: Bookcases - Consumer, Chairs - Consumer
@@ -222,15 +248,17 @@ Use Power BI to analyze the business performances of different markets and produ
   </tr>
   <tr>
     <th valign="top">Low Sales</th>
-    <td valign="top">🔻 Canada
+    <td valign="top">
+      <b>🔻 Canada </b>
       <br>- Top-performing Category:
       <br>+ Phones - Consumer
       <br>+ Storage - Consumer
-    <td valign="top">🔻 EMEA
+    <td valign="top">
+      <b>🔻 EMEA </b>
       <br>- Top-performing Category:
       <br>+ Bookcases - Consumer
       <br>+ Copiers - Consumer
-      <br>🔻 Africa
+      <br><b>🔻 AFRICA </b>
       <br>- Top-performing Category:
       <br>+ Phones - Consumer
       <br>+ Copiers - Consumer
@@ -239,14 +267,53 @@ Use Power BI to analyze the business performances of different markets and produ
 </table>
 
 
+:bulb: **SOLUTION:**
+<table>
+  <tr>
+    <th valign="top">Sales ↓ / Margin →</th>
+    <th valign="top">High Profit Margin</th>
+    <th valign="top">Low Profit Margin</th>
+  </tr>
+  <tr>
+    <th valign="top">High Sales</th>
+    <td valign="top">
+      <b>✅ Scale Up Aggressively </b>
+      <br>+ Increase investment in marketing and distribution.
+      <br>+ Expand to similar or high-potential markets.
+      <br>+ Prioritize inventory and logistics support.
+      <br>+ Consider gradual price increases if the value proposition is strong.
+    <td valign="top">
+      <b>⚠️ Optimize Profitability – Improve Efficiency </b>
+      <br>+ Optimize cost structure: renegotiate supplier terms, re-evaluate supply chain and production processes, use automation or scale to lower operational costs,...
+      <br>+ Reevaluate pricing or promotional tactics.
+      <br>+ Prioritize markets where value-based pricing is more accepted over price-based competition.
+      <br>+ Explore upselling or bundling higher-margin products
+      <br>+ Prioritize marketing & distribution for categories with strong margins.
+      <br>+ Create premium versions of best-selling products to increase profit per sale
+  </tr>
+  <tr>
+    <th valign="top">Low Sales</th>
+    <td valign="top">
+      <b>🧐 Selective Expansion – Niche Growth Potential </b>
+      <br>+ Expand Lookalike Market (Run pilot campaigns in untapped regions with similar customer profiles)
+      <br>+ Highlight premium value (performance, security, or exclusivity) in branding or storytelling.
+      <br>+ Storage - Consumer
+      <br>+ Create high-margin bundles
+      <br>+ Focus on niche, high-value use cases
+      <br>+ Consider repositioning or creating a “hero product” marketing push.
+    <td valign="top">
+      <b>🚨 Rationalize or Reposition – Divest or Redesign </b>
+      <br>+ Investigate root causes (poor demand, high costs, weak fit).
+      <br>+ Replace or reposition current low-performing categories with high-demand alternatives that fit local use
+      <br>+ Bundle Low-Margin Items with High-Margin Ones
+      <br>+ Either improve the value proposition, build brand recognition or exit the segment.
+      <br>+ Form distribution partnerships with local retailers or e-commerce platforms
+  </tr>
+</table>
 
-| **Sales ↓ / Margin →** | **High Profit Margin**                                       | **Low Profit Margin**                                       |
-|------------------------|--------------------------------------------------------------|--------------------------------------------------------------|
-| **High Sales**         | ✅ **Maintain & Scale**  <br>• Protect market share (loyalty programs, exclusive offerings)  <br>• Scale investment (partnershis, ads)  <br>• Test premium pricing | ⚠️ **Optimize Margins**  <br>• Audit costs (promotions, discounts, delivery, operation)  <br>• Improve customer/product mix  <br>• Adjust pricing  <br>• Reduce return rate |
-| **Low Sales**          | 🧐 **Explore Growth**  <br>• Targeted marketing  <br>• Test product expansion  <br>• Evaluate scalability  <br>• Leverage high-margin strengths | 🚨 **Fix or Exit**  <br>• Analyze root causes  <br>• Cut costs  <br>• Redesign offering  <br>• Set deadlines for improvement |
 
 
-<br>+ Chairs Bookcases Copiers Phones
+
 
 
 
