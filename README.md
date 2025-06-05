@@ -91,7 +91,7 @@ Use Power BI to analyze the business performances of different markets and produ
 - The profit margin varies significantly by market and over time, suggesting differences in cost structure, pricing, or customer behavior.
 - Some regions (Canada, EU, APAC) have strong profit margins, while others are less consistent over time.
 #### 📌 Return Rate:
-- Return rates are a concern in EU (especially which region) and US (especially which region), which may imply customer dissatisfaction or fulfillment issues.
+- Return rates are a concern in APAC-North Asia, US-West and LATAM-North, which may imply customer dissatisfaction or fulfillment issues.
 #### 📌 Market Performance:
 - **Average profit margin: 11.6%**
 
@@ -106,8 +106,8 @@ Use Power BI to analyze the business performances of different markets and produ
 🔻**APAC:**
 - All regions had considerably high sales but the profit margin was alarmingly low in Southeast Asia (2.0%) and lower than average in Oceania (10.9%)
 - North Asia had the highest return rate (13.8%) among all regions, implying customer dissatisfaction or fulfillment issues --> need to adjust to increase the profit margin.
-- In Southeast Asia, half of the subcatories had negative profit margins, which might drag down the profit margin of the whole region.
 - Bookcases, Chairs, Copiers and Phones were top revenue-drivers in all 3 regions
+- In Southeast Asia, half of the subcatories had negative profit margins, which might drag down the profit margin of the whole region.
 - The profit margins of Tables were negative in 3 out of 4 regions in APAC, except for Central Asia, and was the lowest in Southeast Asia (-35.5%)--> considering restructuring costs or phasing out in these areas
 
 🔻**EU:**
@@ -168,18 +168,21 @@ Use Power BI to analyze the business performances of different markets and produ
 - APAC and EU were the revenue leader, while Canada is the profit leader but with low sales
 - Most sub-categories had positive profit margins, except Table (-8.5%) --> analyze the performance of this category in different markets to identify areas of inefficiency
 
-
-
 4️⃣ **Customer**
-
-
-
-
-
-
-
-
-
+#### 📌 Sales:
+- Sales from Consumer was the biggest (6.5M), followed by Corporate (3.8M) and Home Office (2.3M)
+- Sales of all segments have grown steadily across years with peak-season in Q4 and Consumer segment showed the strongest growth trend. 
+#### 📌 Profit Margin:
+- Volatile across all segments, especially Home Office, which fluctuates significantly but remained in the 10–15% range for all segments.
+- The profit margin was relatively equal, around 11.5%-12.0% 
+#### 📌 Return Rate:
+- Return rates are relatively the same across 3 customer segments, around 4,5%-5%
+#### 📌 Segment Performance:
+🔎 Top-performing category (true for all customer segments)
++ Phones
++ Copiers
++ Bookcases
++ Chairs
 
 
 
@@ -192,19 +195,46 @@ Use Power BI to analyze the business performances of different markets and produ
     <th valign="top">Low Profit Margin</th>
   </tr>
   <tr>
-    <td valign="top">High Sales</td>
-    <td valign="top">🔻 APAC 
-      <br>- Central Asia
-      <br>- North Asia
+    <th valign="top">High Sales</th>
+    <td valign="top">🔻 APAC
+      <br>- Top-performing Category (true for all regions)
+      <br>+ Chairs - Consumer
+      <br>+ Copiers - Consumer
+      <br>+ Bookcases - Consumer
+      <br>+ Phones – Consumer 
       <br>🔻 EU 
-      <br>🔻 US</td>
-    <td valign="top">🔻 LATAM</td>
+      <br>- Top-performing Category:
+      <br>+ Central: Phones - Consumer, Storage - Consumer, Copiers - Consumer
+      <br>+ North: Phones - Consumer, Bookcases - Consumer, Copiers - Consumer 
+      <br>+ South: Bookcases - Consumer, Copiers - Consumer, Appliances – Corporate
+      <br>🔻 US:
+      <br>- Top-performing Category:
+      <br>+ Central: Phones - Consumer, Copiers - Consumer, 
+      <br>+ East: Phones - Consumer, Bookcases - Consumer, Copiers - Consumer
+      <br>+ South: Phones - Consumer, Chairs - Consumer     
+      <br>+ West: Storage - Consumer, Accessories - Consumer, Binders - Consumer
+    <th valign="top">🔻 LATAM
+      <br>- Top-performing Category:
+      <br>+ Caribbean: Copiers - Consumer, Chair - Consumer, Phones - Consumer
+      <br>+ Central: Bookcases - Consumer, Chairs - Consumer
+      <br>+ North: Copiers - Consumer, Phones – Consumer
+      <br>+ South: Chairs - Consumer
   </tr>
   <tr>
-    <td valign="top">Low Sales</td>
-    <td valign="top">🔻 Canada</td>
+    <th valign="top">Low Sales</th>
+    <td valign="top">🔻 Canada
+      <br>- Top-performing Category:
+      <br>+ Phones - Consumer
+      <br>+ Storage - Consumer
     <td valign="top">🔻 EMEA
-      <br>🔻 Africa</td>
+      <br>- Top-performing Category:
+      <br>+ Bookcases - Consumer
+      <br>+ Copiers - Consumer
+      <br>🔻 Africa
+      <br>- Top-performing Category:
+      <br>+ Phones - Consumer
+      <br>+ Copiers - Consumer
+      <br>+ Storage - Consumer
   </tr>
 </table>
 
