@@ -7,14 +7,14 @@ Use Power BI to analyze the business performances of different markets and produ
 ## :two: Dataset Description:
 - **Company:** Globalstore (fictional)
 - **Time period:** from 2011 to 2024
-- **Dataset:**
-<br>🔻Descriptive Data:
+- **Dataset:**<br>
+**🔻Descriptive Data:**
 + Market: Market, Region, Country, State, City
 + Product: Category, Sub-Category, Product Name
 + Customer: Customer Name, CustomerID
 + Delivery: Ship mode, Returned
-+ Sales workforce: Person, Region
-<br>🔻Measures:
++ Sales workforce: Person, Region<br>
+**🔻Measures:**
 + Sales
 + Quantity
 + Profit
