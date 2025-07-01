@@ -28,7 +28,7 @@ Use Power BI to analyze the business performances of different markets and produ
 - Key Drivers Analysis (Product Mix Impact Analysis) <br>
 - Conclusion <br>
 - Insights <br>
-## :five: Dashboard: [attached file](https://github.com/NguyenPhuongNghi/Market-and-Product-Analysis/blob/main/Global%20Superstore%20-%20Market%20Expansion%20and%20Product%20Strategy.pbix)
+## :five: Dashboard: [attached file](https://github.com/NguyenPhuongNghi/Market-and-Product-Analysis/blob/5fcd9a663c68cd5e5c2580d085c66dce8fc10ccb/Project%20Global%20Superstore_Market%20Expansion%20(final).pbix)
 ### :one: Overview: <br>
 ![alt](https://github.com/NguyenPhuongNghi/Market-and-Product-Analysis/blob/main/photo/Screenshot%202025-07-01%20140308.png?raw=true)
 📍 **By time:**
