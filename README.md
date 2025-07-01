@@ -38,16 +38,16 @@ Use Power BI to analyze the business performances of different markets and produ
 📍 **By market:**
 - Top 3 markets by sales: APAC (3.6M), EU (2.9M), US (2.3M).
 - Lowest sales: Canada (0.1M), Africa (0.8M).
-- Profit Margin: was the highest in Canada (~30%), even with low sales volume → indicates niche profitability and suggests investing more if scalable. It varied around 10%-13% in other markets (APAC, EU, US, LATAM) and was the lowest in EMEA (5.4%)
+- Profit Margin: was the highest in Canada (26,6% on average), even with low sales volume → indicates niche profitability and suggests investing more if scalable. It varied around 10%-13% in other markets (APAC, EU, US, LATAM) and was the lowest in EMEA (5.4% on average)
 
 
 📍 **By Category:**
-- Sales: Technology leads with 4.7M, followed by Furniture (4.1M) and Office Supplies (3.8M).
-- Profit Margin: it is the highest in Technology, followed by Office Supplies (13.7%) and Furniture (6.9%)
+- Sales: Technology leads in all 4 years, followed by Furniture and Office Supplies.
+- Profit Margin: it is the highest in Technology (14% on average), followed by Office Supplies (13.7%) and Furniture (6.9%)
 
 
 📍 **By Segment:**
-- Sales: Consumer segment dominates (6.5M), followed by Corporate (3.8M), and Home Office (2.3M). This indicates successful mass-market penetration.
+- Sales: Consumer segment dominates in all 4 years, constituting 6.5M in sales; followed by Corporate (3.8M), and Home Office (2.3M). This indicates successful mass-market penetration.
 - Profit Margin: relatively equal in 3 segments, around 11%-12%
   
 ### :two: Master Analysis <br>
