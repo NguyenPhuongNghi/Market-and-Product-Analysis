@@ -19,6 +19,8 @@ Use Power BI to analyze the business performances of different markets and produ
 + Quantity
 + Profit
 - **North-star metrics:** Sales and Profit Margin
+- **Data Modelling:**
+![alt](https://github.com/NguyenPhuongNghi/Market-and-Product-Analysis/blob/main/photo/Screenshot%202025-07-05%20172517.png?raw=true)
 ## :three: Tools used:
 - Power BI (Power Query, DAX measures, Visuals)
 ## :four: Dashboard Structure:
