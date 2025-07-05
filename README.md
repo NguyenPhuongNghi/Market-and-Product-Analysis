@@ -2,7 +2,7 @@
 Use Power BI to analyze the business performances of different markets and products to expand markets and choose product strategies
 ## :one: Project Overview:
 **:round_pushpin: The purposes of this project are:**
-- Analyse the business performances of each product categories/market/customer segment over 4-year-Period
+- Analyse the business performances of each product/category/market/customer segment over 4-year-Period
 - Suggest market expansion strategies and decide strategic products 
 ## :two: Dataset Description:
 - **Company:** Globalstore (fictional)
